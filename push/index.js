@@ -32,11 +32,4 @@ server.get("/", (req, res) =>{
     
     res.render("index", {newBio})
    
-    
-    // persons.map((person)=>{
-        
-    //     console.log(Object.keys(person).toString())
-        
-        
-    // })
 })
